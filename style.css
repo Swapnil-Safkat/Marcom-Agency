@@ -127,6 +127,12 @@ header li {
 .banner-header h1{
   color: white;
   font-size: 50px;
+  margin: 10px 0px;
+}
+.banner-header h2{
+  color: #0adab9;
+  font-size: 30px;
+  margin: 0px;
 }
 .banner-title {
   width: 50%;
