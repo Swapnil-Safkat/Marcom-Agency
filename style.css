@@ -1,0 +1,141 @@
+body {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #3A3A3A;
+}
+
+/*
+For all tags
+*/
+.w-full {
+  width: 100%;
+}
+
+.text-lg {
+  font-size: 30px;
+}
+
+/* ----------------------
+        Navigation
+ ---------------------- */
+header {
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header a {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+header li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-logo {
+  height: 50px;
+}
+
+.nav-logo-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-title {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.menu {
+  width: 60%;
+  display: flex;
+}
+
+.menu-items {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.search-box {
+  width: 280px;
+  height: 40px;
+  border: 2px solid #3A3A3A;
+  border-radius: 20px;
+  padding: 5px 20px;
+  font-size: 15px;
+
+}
+
+.fa-search,
+.fa-shopping-cart {
+  color: #000;
+}
+
+/* ----------------------
+        Banner
+ ---------------------- */
+.banner {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  background-image: url("./images/background.jpg") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.banner-header {
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.banner-header h1{
+  color: white;
+  font-size: 50px;
+}
+.banner-title {
+  width: 50%;
+  height: 100vh;
+  background-color: aqua;
+}
+
+.banner-social {
+  width: 10%;
+  height: 100vh;
+  background-color: black;
+}
