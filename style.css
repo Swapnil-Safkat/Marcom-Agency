@@ -1,5 +1,4 @@
 body {
-  min-height: 100vh;
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -8,6 +7,7 @@ body {
   flex-direction: column;
   justify-content: start;
   align-items: center;
+  background-color: #3A3A3A;
 }
 
 html {
@@ -35,11 +35,11 @@ For all tags
         Navigation
  ---------------------- */
 header {
-  height: 12vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: white;
 }
 
 header a {
@@ -64,7 +64,6 @@ header li {
 }
 
 .nav-logo-container {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,18 +98,13 @@ header li {
 
 }
 
-.fa-search,
-.fa-shopping-cart {
-  color: #000;
-}
-
 /* ----------------------
         Banner
  ---------------------- */
 .banner {
-  min-height: 100vh;
   width: 100%;
   display: flex;
+  justify-content: end;
   background-image: url("./images/background.jpg") !important;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -118,30 +112,133 @@ header li {
 }
 
 .banner-header {
-  width: 40%;
-  height: 100vh;
+  width: 30%;
   display: flex;
-  justify-content: end;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin: 200px 0px;
 }
-.banner-header h1{
-  color: white;
-  font-size: 50px;
-  margin: 10px 0px;
-}
-.banner-header h2{
-  color: #0adab9;
-  font-size: 30px;
-  margin: 0px;
-}
+
 .banner-title {
   width: 50%;
-  height: 100vh;
-  background-color: aqua;
 }
 
 .banner-social {
   width: 10%;
-  height: 100vh;
-  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+
+.banner-header h1 {
+  width: 100%;
+  color: white;
+  font-size: 50px;
+  margin: 0;
+  letter-spacing: 4px;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+}
+
+.banner-header h2 {
+  width: 100%;
+  color: #0adab9;
+  font-size: 30px;
+  font-weight: 900;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+
+.banner-header p {
+  width: auto;
+  color: white;
+  font-size: 16px;
+  margin-right: 50px !important;
+  margin-top: 50px !important;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+
+.button-holder {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+}
+
+.see-more {
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  background: transparent;
+  padding: 10px 40px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.option-container{
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+}
+.shape1{
+  width: 60px;
+  height: 60px;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+.shape2{
+  width: 60px;
+  height: 60px;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+.shape3{
+  width: 60px;
+  height: 60px;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+
+.banner-title p {
+  color: white;
+  padding: 140px 80px;
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.social-logos-container {
+  width: 35px;
+  height: 35px;
+  border-radius: 9999px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0adab9;
+  color: black;
+  font-size: 20px;
+  margin-top: 10px;
 }
